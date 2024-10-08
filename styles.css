@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+body {
+    font-family: 'Poppins';
+    background-color: #FF8DB2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.container {
+    background-color: #cc99fa;
+    padding: 60px;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #ff4b5c;
+}
+
+.input-section {
+    margin: 15px 0;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 400;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 3px solid #ea393970;
+    border-radius: 4px;
+    font-size: 16px;
+    border-radius: 2rem;
+    font-weight: 200;
+}
+
+button {
+    background-color: #ff4b5c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 1s ease-out;
+
+}
+
+button:hover {
+    background-color: #e04351;
+    transform: scaleX(1.1);
+    background: linear-gradient(to left, rgb(0, 255, 153), rgb(153, 51, 255));
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
