@@ -15,7 +15,8 @@ The Love Calculator is a fun web application that calculates a "love score" betw
 
 ## Working of Java script
 
-``` // fuction1
+```
+// fuction1
 function loveCalculator() {
     var n = Math.random(); // Generates a random number between 0 (including) and 1 (excluding)
     n = n * 100; // Scales the random number to be between 0 and 100
@@ -37,6 +38,6 @@ function calculateLoveScore() {
         document.getElementById("result").innerHTML =
             "Love score between " + username + " and " + parname + " is " + lovescore + "%";
     }
-} ```
+} 
 
 
